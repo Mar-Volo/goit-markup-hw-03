@@ -75,10 +75,14 @@ img {
 
 /* header-cection */
 
+.header {
+border-bottom: 1px solid #ececec;
+margin: 0;
+}
+
 .header-conteiner {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
   margin-left: auto;
   margin-right: auto;
 }
@@ -382,8 +386,13 @@ img {
 /** 
 PORTFOLIO SECTION 
 **/
-
+/*
 .portfolio-header-conteiner {
+  margin-bottom: 94px;
+}
+*/
+
+.portfolio-header {
   margin-bottom: 94px;
 }
 
