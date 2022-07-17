@@ -50,7 +50,6 @@ img {
 .link {
   text-decoration: none;
   color: currentColor;
-  font-style: normal;
 }
 
 .list {
@@ -80,6 +79,10 @@ img {
   color: var(--main-txt-cl);
 }
 
+address {
+font-style: normal;
+}
+
 /* header-cection */
 
 .header {
@@ -99,20 +102,18 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  margin-top: 24px;
-  margin-bottom: 25px;
+  
   margin-right: 93px;
 }
 .logo-style {
   color: var(--logo-style-cl);
 }
-.header-link,
-.mail,
-.phone-number {
+.header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  display: block;
 }
 
 .header-nav {
@@ -141,12 +142,6 @@ img {
 .header-mail {
   margin-right: 50px;
 }
-
-/*
-.header-item {
-  margin-right: 50px;
-}
-*/
 
 .header-link:hover,
 .header-link:focus {
@@ -334,7 +329,6 @@ img {
 .logo-footer {
   display: block;
   margin-bottom: 20px;
-  margin-right: auto;
 }
 
 .logo-footer-style {
@@ -381,15 +375,7 @@ img {
 /** 
 PORTFOLIO SECTION 
 **/
-/*
-.portfolio-header-conteiner {
-  margin-bottom: 94px;
-}
-*/
 
-.portfolio-header {
-  margin-bottom: 94px;
-}
 
 .buttons-list {
   display: flex;
@@ -425,7 +411,6 @@ PORTFOLIO SECTION
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  margin-bottom: 94px;
   padding: 0;
 }
 
